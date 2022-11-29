@@ -2,201 +2,51 @@
 
 /** @var yii\web\View $this */
 
-$this->title = 'Undead Shop';
+$this->title = 'My Yii Application';
 ?>
-<!-- Intro section -->
-<section class="intro-section">
-    <div class="container">
+<div class="site-index">
+    <div class="p-5 mb-4 bg-transparent rounded-3">
+        <div class="container-fluid py-5 text-center">
+            <h1 class="display-4">Congratulations!</h1>
+            <p class="fs-5 fw-light">You have successfully created your Yii-powered application.</p>
+            <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Get started with Yii</a></p>
+        </div>
+    </div>
+
+    <div class="body-content">
+
         <div class="row">
-            <div class="col-md-4">
-                <div class="intro-text-box text-box">
-                    <div class="top-meta">11.11.18  /  in <a href="">Games</a></div>
-                    <h3>The best online game is out now!</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida....</p>
-                    <a href="#" class="read-more">Read More  <img src="../../web/img/icons/double-arrow.png" alt="#"/></a>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="intro-text-box text-box">
-                    <div class="top-meta">11.11.18  /  in <a href="">Playstation</a></div>
-                    <h3>Top 5 best games in november</h3>
-                    <p>Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum  labore suspendisse ultrices gravida....</p>
-                    <a href="#" class="read-more">Read More  <img src="../../web/img/icons/double-arrow.png" alt="#"/></a>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="intro-text-box text-box">
-                    <div class="top-meta">11.11.18  /  in <a href="">Reviews</a></div>
-                    <h3>Get this game at a promo price</h3>
-                    <p>Sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida ncididunt ut labore ....</p>
-                    <a href="#" class="read-more">Read More  <img src="../../web/img/icons/double-arrow.png" alt="#"/></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Intro section end -->
+            <div class="col-lg-4">
+                <h2>Heading</h2>
 
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                    fugiat nulla pariatur.</p>
 
-<!-- Blog section -->
-<section class="blog-section spad">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-9 col-lg-8 col-md-7">
-                <div class="section-title">
-                    <h2>Latest News</h2>
-                </div>
-                <ul class="blog-filter">
-                    <li><a href="#">Racing</a></li>
-                    <li><a href="#">Shooters</a></li>
-                    <li><a href="#">Strategy</a></li>
-                    <li><a href="#">Online</a></li>
-                </ul>
-                <!-- Blog item -->
-                <div class="blog-item">
-                    <div class="blog-thumb">
-                        <img src="../../web/img/blog/1.jpg" alt="">
-                    </div>
-                    <div class="blog-text text-box">
-                        <div class="top-meta">11.11.18  /  in <a href="">Games</a></div>
-                        <h3>The best online game is out now!</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius-mod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Lorem ipsum dolor sit amet, consecte-tur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.....</p>
-                        <a href="#" class="read-more">Read More  <img src="../../web/img/icons/double-arrow.png" alt="#"/></a>
-                    </div>
-                </div>
-                <!-- Blog item -->
-                <div class="blog-item">
-                    <div class="blog-thumb">
-                        <img src="../../web/img/blog/2.jpg" alt="">
-                    </div>
-                    <div class="blog-text text-box">
-                        <div class="top-meta">11.11.18  /  in <a href="">Games</a></div>
-                        <h3>The best online game is out now!</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius-mod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Lorem ipsum dolor sit amet, consecte-tur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.....</p>
-                        <a href="#" class="read-more">Read More  <img src="../../web/img/icons/double-arrow.png" alt="#"/></a>
-                    </div>
-                </div>
-                <!-- Blog item -->
-                <div class="blog-item">
-                    <div class="blog-thumb">
-                        <img src="../../web/img/blog/3.jpg" alt="">
-                    </div>
-                    <div class="blog-text text-box">
-                        <div class="top-meta">11.11.18  /  in <a href="">Games</a></div>
-                        <h3>The best online game is out now!</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius-mod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Lorem ipsum dolor sit amet, consecte-tur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.....</p>
-                        <a href="#" class="read-more">Read More  <img src="../../web/img/icons/double-arrow.png" alt="#"/></a>
-                    </div>
-                </div>
+                <p><a class="btn btn-outline-secondary" href="http://www.yiiframework.com/doc/">Yii Documentation &raquo;</a></p>
             </div>
-            <div class="col-xl-3 col-lg-4 col-md-5 sidebar">
-                <div id="stickySidebar">
-                    <div class="widget-item">
-                        <h4 class="widget-title">Trending</h4>
-                        <div class="trending-widget">
-                            <div class="tw-item">
-                                <div class="tw-thumb">
-                                    <img src="../../web/img/blog-widget/1.jpg" alt="#">
-                                </div>
-                                <div class="tw-text">
-                                    <div class="tw-meta">11.11.18  /  in <a href="">Games</a></div>
-                                    <h5>The best online game is out now!</h5>
-                                </div>
-                            </div>
-                            <div class="tw-item">
-                                <div class="tw-thumb">
-                                    <img src="../../web/img/blog-widget/2.jpg" alt="#">
-                                </div>
-                                <div class="tw-text">
-                                    <div class="tw-meta">11.11.18  /  in <a href="">Games</a></div>
-                                    <h5>The best online game is out now!</h5>
-                                </div>
-                            </div>
-                            <div class="tw-item">
-                                <div class="tw-thumb">
-                                    <img src="../../web/img/blog-widget/3.jpg" alt="#">
-                                </div>
-                                <div class="tw-text">
-                                    <div class="tw-meta">11.11.18  /  in <a href="">Games</a></div>
-                                    <h5>The best online game is out now!</h5>
-                                </div>
-                            </div>
-                            <div class="tw-item">
-                                <div class="tw-thumb">
-                                    <img src="../../web/img/blog-widget/4.jpg" alt="#">
-                                </div>
-                                <div class="tw-text">
-                                    <div class="tw-meta">11.11.18  /  in <a href="">Games</a></div>
-                                    <h5>The best online game is out now!</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="widget-item">
-                        <div class="categories-widget">
-                            <h4 class="widget-title">categories</h4>
-                            <ul>
-                                <li><a href="">Games</a></li>
-                                <li><a href="">Gaming Tips & Tricks</a></li>
-                                <li><a href="">Online Games</a></li>
-                                <li><a href="">Team Games</a></li>
-                                <li><a href="">Community</a></li>
-                                <li><a href="">Uncategorized</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="widget-item">
-                        <a href="#" class="add">
-                            <img src="../../web/img/add.jpg" alt="">
-                        </a>
-                    </div>
-                </div>
+            <div class="col-lg-4">
+                <h2>Heading</h2>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                    fugiat nulla pariatur.</p>
+
+                <p><a class="btn btn-outline-secondary" href="http://www.yiiframework.com/forum/">Yii Forum &raquo;</a></p>
+            </div>
+            <div class="col-lg-4">
+                <h2>Heading</h2>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                    fugiat nulla pariatur.</p>
+
+                <p><a class="btn btn-outline-secondary" href="http://www.yiiframework.com/extensions/">Yii Extensions &raquo;</a></p>
             </div>
         </div>
+
     </div>
-</section>
-<!-- Blog section end -->
-
-
-<!-- Intro section -->
-<section class="intro-video-section set-bg d-flex align-items-end " data-setbg="./img/promo-bg.jpg">
-    <a href="https://www.youtube.com/watch?v=uFsGy5x_fyQ" class="video-play-btn video-popup"><img src="../../web/img/icons/solid-right-arrow.png" alt="#"></a>
-    <div class="container">
-        <div class="video-text">
-            <h2>Promo video of the game</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-        </div>
-    </div>
-</section>
-<!-- Intro section end -->
-
-
-<!-- Featured section -->
-<section class="featured-section">
-    <div class="featured-bg set-bg" data-setbg="../../web/img/featured-bg.jpg"></div>
-    <div class="featured-box">
-        <div class="text-box">
-            <div class="top-meta">11.11.18  /  in <a href="">Games</a></div>
-            <h3>The game you’ve been waiting  for is out now</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vestibulum posuere porttitor justo id pellentesque. Proin id lacus feugiat, posuere erat sit amet, commodo ipsum. Donec pellentesque vestibulum metus...</p>
-            <a href="#" class="read-more">Read More  <img src="../../web/img/icons/double-arrow.png" alt="#"/></a>
-        </div>
-    </div>
-</section>
-<!-- Featured section end-->
-
-
-
-<!-- Newsletter section -->
-<section class="newsletter-section">
-    <div class="container">
-        <h2>Subscribe to our newsletter</h2>
-        <form class="newsletter-form">
-            <label>
-                <input type="text" placeholder="ENTER YOUR E-MAIL">
-            </label>
-            <button class="site-btn">subscribe  <img src="../../web/img/icons/double-arrow.png" alt="#"/></button>
-        </form>
-    </div>
-</section>
-<!-- Newsletter section end -->
+</div>
